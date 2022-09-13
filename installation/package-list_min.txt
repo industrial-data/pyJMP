@@ -1,0 +1,26 @@
+# minimum packages to be installed
+# ver 2020-01-15
+# author: Francisco Navarro
+# github.com/industrial-data
+# please install it using '--channel conda-forge' flag to avoid licensing issues
+scikit-learn
+pandas
+numpy
+scipy
+matplotlib
+ipython
+jupyter
+numba
+dask
+datashader
+bokeh
+holoviews
+colorcet
+shap
+lightgbm
+umap-learn
+hdbscan
+optuna
+pynndescent
+
+

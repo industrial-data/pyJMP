@@ -1,0 +1,19 @@
+ClearLog();
+// This JSL script tests the Python installation
+// To do so it does it in a series of steps:
+// 1. Gets current path where the script is
+// 2. Runs CMD with a bat file that loads Python PATH
+// 3. CMD runs Python file 
+// 4. Recollects all data into JMP log.
+
+// Author: Francisco Navarro @franktoffel (github)
+// URL: https://github.com/industrial-data/JMP-MES-connector
+
+file_path = ConvertFilePath( "./run_python_installation_test.bat", windows);
+
+rp = RunProgram( Executable( "cmd.exe" ),
+	Options( {"/C", file_path} ),
+	ReadFunction("text") // returns all text	
+	);
+	
+	

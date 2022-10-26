@@ -15,7 +15,7 @@ timeout 3
 echo Check for any inconclusive antivirus warnings... && echo.
 timeout 1
 
-echo If installation is blocked, close this window and go to alternative folder... && echo.
+echo If installation is blocked, close this window and try downloading the latest version of miniforge... && echo.
 timeout 1
 
 

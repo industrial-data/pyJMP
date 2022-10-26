@@ -22,5 +22,4 @@ umap-learn
 hdbscan
 optuna
 pynndescent
-
-
+joblib==1.1.0

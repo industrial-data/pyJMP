@@ -31,7 +31,9 @@ A list of python packages (package-list\_min.txt) will be downloaded and install
 
 If you have an error due to package conflicts, press enter or escape/enter to continue.
 
-In case it does not work, use the following command to install the packages (in principle, this should not be needed).
+Your VPN or firewall might also block the full installation of Miniforge and the packages.
+
+In case any of this work, you can install miniforge manually and use the following command to install the packages (in principle, this should not be needed).
 
 ```conda install -y -c conda-forge scikit-learn pandas numpy scipy matplotlib ipython jupyter numba dask datashader bokeh holoviews colorcet shap lightgbm umap-learn hdbscan optuna pynndescent```
 

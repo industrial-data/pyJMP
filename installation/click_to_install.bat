@@ -21,7 +21,7 @@ timeout 1
 
 :: Miniforge is prefered to avoid license issues
 :: To download --> https://github.com/conda-forge/miniforge#miniforge
-:: Yet Solvay antivirus does not recognize this file
+:: Yet the antivirus might not recognize this file, or the .bat file needs to be unlocked before execution
 start /wait "" Miniforge3-Windows-x86_64.exe /S /InstallationType=JustMe /AddToPath=0 /RegisterPython=0 /NoRegistry=1 /D=%PTH%
 
 

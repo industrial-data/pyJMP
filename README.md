@@ -4,7 +4,7 @@ An optional and independent Python environment that can be used with JMP (e.g. [
 The following instructions don't require admin rights to install it.
 
 
-## Installation steps (manual)
+## Installation steps for Windows machines (Mac recommendations in the Annex)
 
 ## 1 - Download and install the latest version of pyJMP
 
@@ -59,6 +59,7 @@ These direct access icons are NOT needed for JMP to work, but may become handy i
 
 ![](media/image6.png)
 
+
 ## 3 - New features and bugs
 
 In case you found any error or bug installation or testing pyJMP, please submit a ticket.
@@ -74,3 +75,17 @@ Anaconda changed its license ([see FAQ](https://www.anaconda.com/blog/anaconda-c
 This may require a commercial license. Miniconda prompt and conda-forge packages, should not require a commercial license.
 
 ![](media/image9.png)
+
+## Annex II: Mac installations
+
+PyJMP is not configured for MacOS installations yet. You can manually install [minforge](https://github.com/conda-forge/miniforge) making sure you select the option of modifying environments (default is no). 
+
+First, install Miniforge by opening a terminal.
+
+```curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh" bash Mambaforge-$(uname)-$(uname -m).sh```
+
+If conda command is not recognized, run the following command in your terminal.
+
+```/Users/YOURUSERNAME/mambaforge/bin conda init zsh```
+
+

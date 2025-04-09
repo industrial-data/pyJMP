@@ -82,7 +82,7 @@ PyJMP is not configured for MacOS installations yet. You can manually install [m
 
 First, install Miniforge by opening a terminal.
 
-```curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh" bash Mambaforge-$(uname)-$(uname -m).sh```
+```curl -fsSLo Miniforge3.sh "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-$(uname -m).sh"```
 
 If conda command is not recognized, run the following command in your terminal.
 

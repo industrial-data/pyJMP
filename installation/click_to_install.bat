@@ -43,10 +43,9 @@ echo Installing conda-forge common packages && echo.
 timeout 3
 
 :: Using --file requirements.txt and --yes to install all files
-start /wait /B  ""  conda install -y -c conda-forge --file package-list_min.txt
+::start /wait /B  ""  conda install -y -c conda-forge --file package-list_min.txt
 
 :: Alternative, direct call to packages instead of using requirements file
-::start /wait /B  ""  conda install -y -c conda-forge scikit-learn pandas numpy scipy matplotlib ipython jupyter networkx numba scikit-image dask datashader shap lightgbm gspread umap-learn hdbscan optuna pynndescent mkl==2023.1 joblib==1.1.0
-
+start /wait /B  ""  conda install -y -c conda-forge scikit-learn pandas numpy scipy matplotlib ipython jupyter numba dask shap lightgbm umap-learn hdbscan optuna pynndescent 
 echo Miniforge installed && echo.
 timeout 3
